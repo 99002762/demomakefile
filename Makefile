@@ -46,7 +46,7 @@ run:$(PROJECT_NAME)
 
 # Remove all the built files, invoke by `make clean`
 #clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	#rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):
