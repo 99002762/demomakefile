@@ -13,7 +13,7 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 $(PROJECT_NAME):all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out -lm
+	gcc $(SRC)  -o $(PROJECT_OUTPUT).out -lm
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
